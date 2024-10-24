@@ -77,9 +77,9 @@ class DTMFApp(tk.Tk):
         self.numBtn0 = tk.Button(self, image=self.btnEnd0, relief="flat", command=lambda: self.numClicked(0))
         self.numBtn0.place(x=143,y=385)        
    
-        self.outputDigitLabel  = tk.Label(self, font=('Arial bold', 25))
+        self.outputDigitLabel  = tk.Label(self, font=('Arial bold', 30))
         self.outputDigitLabel.config(bg='#1D0669', fg= "white", justify="center")
-        self.outputDigitLabel.place(x=160,y=125)
+        self.outputDigitLabel.place(x=160,y=122)
         
         
         self.fig1, self.ax1 = plt.subplots(figsize=(6, 2), dpi=100)
